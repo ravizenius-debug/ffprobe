@@ -1,0 +1,14 @@
+{
+  "name": "ffprobe-duration-api",
+  "version": "1.0.0",
+  "description": "Simple API to get video duration using ffprobe",
+  "main": "server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "fluent-ffmpeg": "^2.1.3"
+  }
+}
